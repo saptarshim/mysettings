@@ -1,0 +1,17 @@
+
+(load-file "~/emacs/cedet-1.0pre7/common/cedet.el")
+(global-ede-mode t)
+(semantic-load-enable-excessive-code-helpers)
+;;(semantic-load-enable-semantic-debugging-helpers)
+(require 'semantic-ia) 
+
+(require 'semantic-gcc)
+
+(semantic-add-system-include "/home/lib/boost_1_47" 'c++-mode)
+
+(semanticdb-create-ebrowse-database "/usr") 
+
+;; if you want to enable support for gnu global
+(require 'semanticdb-global)
+(semanticdb-enable-gnu-global-databases 'c-mode)
+(semanticdb-enable-gnu-global-databases 'c++-mode)

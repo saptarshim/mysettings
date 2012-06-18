@@ -1,0 +1,9 @@
+(add-to-list 'load-path "~/emacs/org-7.7/lisp")
+(load-file "~/emacs/org-7.7/lisp/org.el")
+;;(load-file "org.el")
+(require 'org-install)
+(add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
+
+
+
+
