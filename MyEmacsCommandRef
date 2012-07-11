@@ -128,3 +128,11 @@ Getteing Help
 ------------------------------------------------------------------------------------
 C-h m				Show the help of te current mode
 C-h k <key Sequence>	Show help on what the key sequence does	
+
+Testing VC
+
+VC. I use Git for all my personal projects, and occasionally CVS and SVN for projects that I interact with. Emacs provides a package called VC which lets me perform many version control operations from within Emacs. It provides a layer of uniformity: the commands are all the same regardless of what version control system I am using for any particular project. This is great because it means that when bzr or hg or whatever comes into vogue, I can get quite a bit of work done before I have to learn yet another VCS.
+
+Typical workflow for me: open a file. Make and test some changes. C-x v = to show a diff. If I like it, C-x v v to prepare a commit. Emacs pops up a new window in which to type a commit message. C-c C-c there to make the commit.
+
+VC includes many other useful features, like showing annotated versions of files, showing change logs for particular files, and helping you review historical versions and diffs.
