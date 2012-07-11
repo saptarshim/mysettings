@@ -48,7 +48,19 @@
         (message "customizing GNU Emacs 24.1")
 	
 )
-)
+
+
+);;Work around to for activate ECB
+;;Alos the ecb-2.40/ecb-upgrade.el files needs to be changed to reflect 
+;;that it can work woth CEDET latest version
+;;line changed in ecb-upgrade.el
+;; (defconst ecb-required-cedet-version-max '(1 2 4 9))
+;;
+(setq stack-trace-on-error t)
+;;ECB Workaround end	
+
+
+
 
 
 ;;Load Visual Theme
