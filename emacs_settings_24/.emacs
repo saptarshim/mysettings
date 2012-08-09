@@ -19,6 +19,10 @@
 ;; Load C and C++ realted settings
 (load "emacs-sm-ccmode.el")
 
+;; Load Java realted settings
+(load "emacs-sm-javamode.el")
+
+
 
 ;;Load the org mode
 (load "emacs-sm-org.el")
@@ -58,10 +62,6 @@
 ;;
 (setq stack-trace-on-error t)
 ;;ECB Workaround end	
-
-
-
-
 
 ;;Load Visual Theme
 (load "emacs-sm-theme.el")
