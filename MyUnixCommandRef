@@ -1,0 +1,2 @@
+Git Related commands
+git log --pretty=oneline --abbrev-commit
