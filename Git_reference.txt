@@ -1,4 +1,5 @@
-This File documents the various got realted commands as I learn it form the book Version control with Git 2nd Endition
+This File documents the various got realted commands as I learn it form the book
+Version control with Git 2nd Endition
 
 git init  	    	->Initialize a git repository
 git add file_name   	->Add file_name file to the repository
@@ -11,5 +12,6 @@ In bash
 export setenv=GIT_EDITOR=emacs		->Set the default editor for git
 git config user.name "Saptarshi Mondal"	->Set the Author Information across session
 git config user.email "saptarshi.mondal@gmail.com"    ->Set the author email across session
+git log	   	      -> Show the git project log 
  
   
