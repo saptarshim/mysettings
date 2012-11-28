@@ -1,0 +1,34 @@
+Regular Expression guide 
+
+^	Start of the file	egrep ^cat-> Search for cat at the beging of line
+$	End of the File		egrep cat$->Search for cat at end of line
+[]	matches either of the charater that is within	egrep gr[ae]y *.txt
+[X-X]	Specify range within the or matching   egrep [a-d]abc -> search for [abcd]abc
+	Another example [A-Fa-f1-9] pattern for hex numbers
+[^list]	matches if the list is not there   ^ means negate inside []  [^1-6] 1-6 is not in the pattern
+-	Only valid metacharater to show rang if it is witihn [] and not the first character
+ 	
+
+.	This matches any charater egrep '03.12.22' *.txt will match 03-12-22 & 03/12/22 as well as 03.12.22
+|	this repreesent alternation egrep 'bos|robert' search for either bos or robert. this helps combine multiple expression
+
+(|)	The parathesis needes to be used to show alternation within not [] ^(From|Subject|Date): will match any line starting with From, Sunject or Date xs
+
+-i	in egrep -i commnad line param ignore case not part of the regular expression though
+
+\<	Begining of Word boundary
+\>	End of Work boundary	\<cat\> meand look for cat
+
+?	Optional egrep 'colou?r' *.txt make u optional
+
+()?	The ? treat the stuff inside the () as single unit. egrep 4(th}? treat th as single unit got optinal
+
+*	match all including none
++	Matches all but atleast 1 needs to be present
+	Space is not a special charater and * + ? apply spae to spase as any other character
+
+\1	Backreferencing    egrep '\<([a-z]+) +\1' *.txt
+\2	Backreferencing egrep '\<([a-z]+) (1-9)  +\1 \2' *.txt
+
+\	Escape cgaracter before the metacharater to remove the special meaning
+
