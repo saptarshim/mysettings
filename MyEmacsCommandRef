@@ -136,3 +136,12 @@ VC. I use Git for all my personal projects, and occasionally CVS and SVN for pro
 Typical workflow for me: open a file. Make and test some changes. C-x v = to show a diff. If I like it, C-x v v to prepare a commit. Emacs pops up a new window in which to type a commit message. C-c C-c there to make the commit.
 
 VC includes many other useful features, like showing annotated versions of files, showing change logs for particular files, and helping you review historical versions and diffs.
+
+
+---------------Git Emacs Integration related command-----------------------
+C-x g l		   Log for entire project
+C-x g L	Log for current file
+C-x g C-l   	Log for Branch or tag
+C-x g d RET 	Diff current buffer against HEAD
+C-x g s	Status	   
+C-c g c f	   Commit Current File
