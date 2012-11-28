@@ -4,7 +4,7 @@ Version control with Git 2nd Endition
 git init  	    	->Initialize a git repository
 git add file_name   	->Add file_name file to the repository
 git add .	  	->Add the entire directory and subdirectories into the repositiry
-git status		->Show the current status of the repositiry
+git statusC		->Show the current status of the repositiry
 git -m "Commit comments" --author="Saptarshi Mondal <saptarshi.mondal@gmail.com>"
        	       		 -> Commit all the changes into the repositiry with autor infotmation if
 			    	   it is not yet set by the config command below
@@ -12,6 +12,8 @@ In bash
 export setenv=GIT_EDITOR=emacs		->Set the default editor for git
 git config user.name "Saptarshi Mondal"	->Set the Author Information across session
 git config user.email "saptarshi.mondal@gmail.com"    ->Set the author email across session
+git config --global color.ui true		      -> Make all the git output colored
 git log	   	      -> Show the git project log 
+
  
   
