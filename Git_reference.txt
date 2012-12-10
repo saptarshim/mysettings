@@ -1,19 +1,36 @@
 This File documents the various got realted commands as I learn it form the book
 Version control with Git 2nd Endition
 
-git init  	    	->Initialize a git repository
-git add file_name   	->Add file_name file to the repository
-git add .	  	->Add the entire directory and subdirectories into the repositiry
-git statusC		->Show the current status of the repositiry
+git init						->Initialize a git repository
+git add file_name				->Add file_name file to the repository
+git add .	  	      		     	    ->Add the entire directory and subdirectories into the repositiry
+git status		      	  	 	   ->Show the current status of the repositiry
 git -m "Commit comments" --author="Saptarshi Mondal <saptarshi.mondal@gmail.com>"
-       	       		 -> Commit all the changes into the repositiry with autor infotmation if
-			    	   it is not yet set by the config command below
+       	       		 		     	    -> Commit all the changes into the repositiry with autor infotmation if
+			    	   		    it is not yet set by the config command below
 In bash
-export setenv=GIT_EDITOR=emacs		->Set the default editor for git
-git config user.name "Saptarshi Mondal"	->Set the Author Information across session
+export setenv=GIT_EDITOR=emacs			->Set the default editor for git
+git config user.name "Saptarshi Mondal"	      ->Set the Author Information across session
 git config user.email "saptarshi.mondal@gmail.com"    ->Set the author email across session
 git config --global color.ui true		      -> Make all the git output colored
-git log	   	      -> Show the git project log 
-
- 
-  
+git log	   	      	     			      -> Show the git project log 
+git show commitID     				      ->Show the details about the particular commit 
+git show-branch --more=10  			      ->Show last 10 commit message
+git diff commitID1 commitID2			      ->Show the diff between commits 
+git rm filename	   				      -> prepare removal of  finename from repositiry, need commit folowed by this to make it hapen
+git mv file1 file2				      ->State the intent of movng file1 to file2, need commit to confirm
+~/.gitconfig 					      -> Provides global git configuration information
+.git/config					      -> Local project specific git configuration has higher precedence then global config files
+git config -l 					      ->list all the git configuration settings
+git config --unset --global user.name		      ->Remove the global user.name configuration
+git config --unset user.name			      ->remove local project user.name configuration
+git config --global alias.aliasname   'git_command'     -> create the aliasname alias to the git_commnad example below
+git config --global alias.show-graph 'log --graph --abbrev-commit --pretty=oneline'  
+git diff   	    		     -> Differnce between files in the current directory that;s not stage and latest commited   change
+git dif --cached		    -> Show the dif between the files that has been staged in the Index
+.gitignore			    ->Put the files that you want git to ignore in the directory where the file is at any subdirectory level
+git bisect start		    -> This is t find a bad commit between current bad version and some previous known good version
+git bisect bad			    -> Tell the current HEAD is bad
+git bisect good version		    -> Tell ood that thi sis the last known giid version 
+git bisect replay		    -> Go back one step back
+gitk	   			    ->Draw picture ofthe repositiry and DAG at any point
