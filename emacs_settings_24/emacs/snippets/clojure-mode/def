@@ -1,3 +1,0 @@
-#name : (def var ...)
-# --
-(def ${1:name} $0)$>
