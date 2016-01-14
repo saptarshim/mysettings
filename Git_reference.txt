@@ -34,3 +34,27 @@ git bisect bad			    -> Tell the current HEAD is bad
 git bisect good version		    -> Tell ood that thi sis the last known giid version 
 git bisect replay		    -> Go back one step back
 gitk	   			    ->Draw picture ofthe repositiry and DAG at any point
+
+
+git fetch origin		    -> Fetch all the remote branches to the local repository
+
+git fetch origin "branch_name"	    ->Willfetch the remote "branch_name" to the local repository
+git checkout --track origin/"remote_branch"   -> Create a local branch that track to a remote branch called "remote_branch" and switch to it in local repository
+git checkout -b "branch_name" origin/"branch_name"   -> Shall create a local branch "branch_name" that is tracking the remote/"breanch_name"
+
+git checkout -b "branch_name"  origin/"branch_name"	    -> checkout the branch "branch_name" and change it to it
+
+git push -u origin "local_branch"	-> Push the local branch "local_branch" to the remote repository and tracks to it
+		    
+git checkout -b "new_branch"	->Create and checkout an new branch "new_branch"
+
+git push --tags	->push the local tag to the remote repository
+
+git show HEAD~4:"filename"	->go back four commits from our current HEAD and shoew the state of the file specefied in "filename"
+
+git branch -D "local_branch"	-> Delete the local branch "local_branch"
+
+git push origin --delete "remote_branch"  -> Delete the remote branch "remote_branch"
+
+git diff --name-status master.."branch_name" -> Shoe the files tha's differnt between the master and the branch_name
+

@@ -1,3 +1,5 @@
+	C-v	Move forward one screem
+	M-v	Move backward one screen
 	C-f	Move forward a character
 	C-b	Move backward a character
 	C-l	Redraw the window and center
@@ -23,9 +25,11 @@
 
 	C-k	     Kill from the cursor position to end of line
 	M-k	     Kill to the end of the current sentence
-	C-Y	     Yank the killed lone
+	C-y	     Yank the killed lone
 	M-w	     Copy	
-	C-w	     Cut
+	C-k	     Cut
+	C-y	     paste
+	M-%	     Replace
 	C-x C-f		Find file
 	C-x C-s		Save file
 	C-x s		Save some buffers
@@ -112,7 +116,8 @@ Enable Flyspell mode for comments and strings only.
 -------------------------------------------------------------------------------------
 Programmng related commands
 -------------------------------------------------------------------------------------
-C-c C-c	comment-region
+
+C-c C-c		comment-region  // Set mark first the region the need commenting
 C-M-a		c-beginning-of-defun
 C-M-e		c-end-of-defun
 C-M-h		c-mark-function
@@ -126,22 +131,36 @@ M-e		c-end-of-statement
 -------------------------------------------------------------------------------------
 Getteing Help
 ------------------------------------------------------------------------------------
-C-h m				Show the help of te current mode
-C-h k <key Sequence>	Show help on what the key sequence does	
+C-x r m <RET>:  Set the bookmark for the visited file, at point. 
+C-x r m bookmark <RET> :Set the bookmark named bookmark at point (bookmark-set). 
+C-x r b bookmark <RET> : Jump to the bookmark named bookmark (bookmark-jump). 
+C-x r l  : List all bookmarks (list-bookmarks). 
+M-x bookmark-save : Save all the current bookmark values in the default bookmark file.
 
-Testing VC
+Speacial Emacs Tricks
+Start selection or mark set with C+Space, move to where we want
+to change the rectangle area. THen C-x r t with replace the rectanle
+area with the text you type
 
-VC. I use Git for all my personal projects, and occasionally CVS and SVN for projects that I interact with. Emacs provides a package called VC which lets me perform many version control operations from within Emacs. It provides a layer of uniformity: the commands are all the same regardless of what version control system I am using for any particular project. This is great because it means that when bzr or hg or whatever comes into vogue, I can get quite a bit of work done before I have to learn yet another VCS.
+*********************************************************
+Terminal emulator
+M-x term
+M-x eshell
 
-Typical workflow for me: open a file. Make and test some changes. C-x v = to show a diff. If I like it, C-x v v to prepare a commit. Emacs pops up a new window in which to type a commit message. C-c C-c there to make the commit.
+********************************************************
+Web Browsing
+M-x eww
+********************************************************
+Package install
+M-x el-get-install
 
-VC includes many other useful features, like showing annotated versions of files, showing change logs for particular files, and helping you review historical versions and diffs.
+Enable various package that was already installed
+company-mode for autocompletion
+autopair for automatic brackets pairing
+flyceck for syntax check
+magit for git integration the cheet sheet is here http://daemianmack.com/magit-cheatsheet.html
+git-timemachine
+multiple-cursor
 
 
----------------Git Emacs Integration related command-----------------------
-C-x g l		   Log for entire project
-C-x g L	Log for current file
-C-x g C-l   	Log for Branch or tag
-C-x g d RET 	Diff current buffer against HEAD
-C-x g s	Status	   
-C-c g c f	   Commit Current File
+M-! : Execute an external shell commands

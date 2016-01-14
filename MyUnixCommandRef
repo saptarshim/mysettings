@@ -1,9 +1,95 @@
-Git Related commands
-git log --pretty=oneline --abbrev-commit
 
- git add *
- git commit -a -m "auto dev server commit"
-then fetch the changes and overwrite if there is a conflict
+Get all actual lines of java code from *.java files
+find . -name "*.java" | xargs cat | grep "[a-Z0-9{}]" | wc -l
 
- git fetch origin master
- git merge -s recursive -X theirs origin/master
+
+Get all lines from the *.java files, which includes empty lines and comments
+find . -name "*.java" | xargs cat | wc -l
+
+Get information per File, this will give you [ path to file + "," + number of lines ]
+for file in `find . -name "*.java"`; do echo -n "$file,"; cat $file | wc -l; done;
+
+cat /proc/scsi/scsi | less
+
+lsscsi
+
+contents of the directory /sys/class/scsi_host/hostN, where N is host adapter ID number
+
+tail -f /var/log/mrssages
+
+tail -1 messages > messages
+
+sudo apt-get install ntfs-3g
+
+dpkg --get-selections
+
+
+It's often more useful to tar a directory (which tars all files and subdirectories recursively unless you 
+specify otherwise). The nice part about tarring a directory is that it is untarred as a directory rather 
+than as individual files.
+
+tar cvzf foo.tgz cps100
+will tar the directory cps100 (and its files/subdirectories) into a tar file named foo.tgz.
+To see a tar file's table of contents use:
+
+tar tzf foo.tgz
+To extract the contents of a tar file use:
+
+tar xvzf foo.tgz
+
+Debian default boot to console
+
+update-rc.d -f gdm remove
+
+Change Dabin hostname
+
+/etc/hostname
+
+Change RHEL hostname
+/etc/sysconfig/network
+
+Install linux-header package
+$ apt-get install linux-headers-$(uname -r)
+
+shift+pgup/pgdwn = scroll up down
+
+Find
+____________________________
+find ./ -type f -iname *.c
+
+grep -inR -A2 test /etc/fooserver/
+
+This tells grep to do a case-insensitive 
+recursive search for test in all the files in the /etc/fooserver/ directory, 
+and to print the next two lines following the line that matches the search. 
+The n option prints line numbers, which is a nice bonus in large files.
+
+
+---------emacs WIth X Forwaqrding---------------------
+Run emacs over ssh over x11 forwarding
+
+ssh -X -C "username@remotehost"
+
+-X tells X11 forwarding and -C says compress everything in and out ovber TCP
+
+May Need to instal dbus-x11 in the remote machine to avoid some error when starting emacs.
+
+Tramp-mode is another usefull mode to look into this reagard
+
+
+------------------------------------------------
+
+Driver Module Compile
+
+If you wanted to build the drivers/usb/storage module you would do this:
+
+make M=drivers/usb/storage
+You can't simply take the source code for one kernel and use it to build modules for another one. The module needs to be built from the same source and with the same configuration as the kernel itself.
+
+Basically, you need to find the source code for the Ubuntu kernel you're running. In Ubuntu, as in Debian, that can be done with 'apt-get source '. The package name is probably something like 'linux-image-3.8-2-amd64'.
+
+Once you have the source code you need to find the configuration of your running kernel. Fortunately Ubuntu keeps that in /boot/config-3.8-....
+
+Copy that config to your kernel source tree as .config and run 'make oldconfig'. Now you should be able to build the module (assuming it's not already built into your kernel!).
+
+
