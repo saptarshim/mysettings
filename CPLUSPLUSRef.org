@@ -1,0 +1,43 @@
+Thid is my c++ refernce
+
+* Pay Attention ot the following subportion of C++
+** C
+** Object Oriented C++
+** Template C++ 
+** STL C++
+* Prefer to use const, enum and inline over C style #define
+** Use static public const for the global definitions inside a constant class
+** Use const_iterator if we need an iterator that points to something that can't be modified
+** Use const memnber function that can be involed on const objects
+** Member function that only differ only in their constantness can be overloaded
+* C++ compiler writes the default constructor , copy constructor and copy assignment operator automatically if it;s ot provoded
+** If that is not desired. Create the delaration of these function as a provate and don;lt implenet them. This will guarentte that compiler will not create this
+* Declare the base destructor as virtual
+** If you donlt do this and delete a derefernced object with a base class pointer only the destructor of the base class is called
+* Prevent Exceptions from leaving Destructor
+** Either terminate the programd in the exception handling code of the destructor or handle it.
+* Never call virual function during construction and destruction
+* Handle assignment to self in operator=
+* Use objects to manage resource
+** Use std::auto_ptr<ClassName> for automatically release point objects memmory. Copying auto_ptr make the source null to avoid relesing the same resource muyltiple times
+** Use reference counting smart pointer such as tr1::shared_ptr if normal copying behaviour is desired
+** sauto_ptr and shared_ptr both use delete obj not delete obj[] as such they can't be used with dynamically allocated arrays.
+** If above functionaluty is desired we can use boost:scope_array and boost::shared_array
+** Resources that's not heap based should not be used in conjuction with aut_ptr or shared_ptr
+** tr1::shared_ptr offers a constrcutor that takes two arguments one for the pointer to be managed and another for the deleter function
+* pay special attention to what happens when a RAII object is copied
+** Either Prohibit copying or reference count the underlying resource
+* If [] is used in new [] must be used in the corresponding  delete
+* C++ compilter may reorder statemants to optimization so donlt provide that oportunity
+** Dont's do processWidget(std::tr1::shared_ptr<Widget>(new Widget)) as the compiler can reorder the innovocation and if exceptions are thrown the resource can be hanging
+* Prefer pass by reference to cons over pass by value in case of user defined types and pass by valu for built in types, STL iterator and function object types
+* Prefer non-member non-friend functions to member functions.Doing so increases encapsulation, packaging flexibility, and functional extensibility.
+** Encapsulation is increased when less number of funtion can access a data
+* shared_ptr supports custom deleter, use it when needed to avoid cross-dll problem
+* Declare data members private
+** It gives clients syntactically uniform access to data, affords fine-grained access control, allows invariants to be enforced, and offers class authors implementation flexibility. Protected is no more encapsulated than public.
+* If you need type conversions on all parameters to a function (including the one pointed to by the this pointer), the function must be a non-member.
+* Postpone variable definitions as long as possible
+* Minimize casting
+
+

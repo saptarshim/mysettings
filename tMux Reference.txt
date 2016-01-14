@@ -1,0 +1,30 @@
+Create new tMux session
+tmux new -s ubuntu-14
+
+Attach to existing tMux Session
+tmux attach -t ubuntu-14
+
+Switch to another existing session
+tmux switch -t ubuntu-13
+
+List Session
+tmux list-sessions
+
+
+Detach
+tmux detach
+
+
+
+Ctrl+b " - split pane horizontally.  or tmux split-window
+Ctrl+b % - split pane vertically. or tmux split-window -h
+Ctrl+b arrow key - switch pane.
+Hold Ctrl+b, don't release it and hold one of the arrow keys - resize pane.
+Ctrl+b c - (c)reate a new window.
+Ctrl+b n - move to the (n)ext window.
+Ctrl+b p - move to the (p)revious window.
+
+
+
+
+tmux list-keys
