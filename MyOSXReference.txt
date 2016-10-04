@@ -1,6 +1,0 @@
-This file contains the various OSX specific tips and trics that I learned over the years
-
-Shift-⌘-G : Go to folder, tab will complete the folder naming
-Option-⌘-M : Minimize all open Window
-⌘-T : Create a tabbed window in finder
-⌘-space bar : Open Spot light
