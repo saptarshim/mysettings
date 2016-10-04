@@ -39,7 +39,7 @@
 (global-set-key [f7] 'compile)
 (global-set-key [f8] 'find-file)
 (global-set-key [f9] 'save-buffer)
-(global-set-key [f10] 'buffer-menu)
+(g\lobal-set-key [f10] 'buffer-menu)
 (global-set-key [f11] 'semantic-symref)
 (global-set-key [f12] 'semantic-ia-fast-jump)
 
@@ -47,6 +47,11 @@
 (global-set-key [C-f1] 'eassist-list-methods)
 ;;C-f2 is reserved for book mark package
 (global-set-key [C-f3] 'next-error)
+
+;;Spelling related kbd binding
+(global-set-key (kbd "M-9") 'ispell)
+
+
 
 ;;csope related keyboard shortcuts
 (define-key global-map [(control f4)]  'cscope-pop-mark)
@@ -84,9 +89,6 @@
 (global-set-key (kbd "C-0") '(lambda()(interactive)
                                (modify-frame-parameters nil `((alpha . 100)))))
 
-;; Use C-x m to invoke M-x
-(global-set-key "\C-x\C-m" 'execute-extended-command)
-(global-set-key "\C-c\C-m" 'execute-extended-command)
 
 
 ;;

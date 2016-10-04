@@ -36,9 +36,16 @@
 (require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
 
-;; Disable Scroll bar
-(scroll-bar-mode -1)
-
 ;; Byte recompile everything at startup if not done already
 ;;(byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
+
+;; Setup the Spell Checking related setting
+;;for the windows environment
+(if (eq system-type 'windows-nt)
+       (add-to-list 'exec-path "C:/Program Files (x86)/Aspell/bin/")
+)
+
+(setq ispell-program-name "aspell")
+(setq ispell-personal-dictionary "~/.emacs.d/.ispell")
+(require 'ispell)
 

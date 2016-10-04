@@ -2,21 +2,39 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/net/ethernet/intel/" . "e1000/")
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/net/ethernet/" . "intel/")
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/net/" . "ethernet/")
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/" . "net/")
- ("/Users/saptarshi/OneDrive/" . "Documents/")
- ("/Users/saptarshi/projects/app/pc/openCog/cogutils/opencog/" . "util/")
- ("/Users/saptarshi/projects/app/pc/openCog/" . "cogutils/")
+ ("c:/home/projects/kernel/win/" . "Win_Driver/")
+ ("c:/home/projects/app/android/L-Detector-3/src/com/khudroudyog/" . "l_detector_3/")
+ ("c:/home/projects/app/android/L-Detector-3/src/com/" . "khudroudyog/")
+ ("c:/home/projects/app/android/L-Detector-3/src/" . "com/")
+ ("c:/home/projects/app/android/L-Detector-3/" . "src/")
+ ("c:/home/projects/app/android/" . "L-Detector-3/")
+ ("c:/home/tools/emacs-24.5/var/games/" . "emacs/")
+ ("c:/home/tools/emacs-24.5/var/" . "games/")
+ ("c:/home/tools/emacs-24.5/" . "var/")
+ ("c:/home/tools/" . "emacs-24.5/")
+ ("c:/home/projects/app/pc/" . "nodejs/")
+ ("c:/home/projects/app/" . "android/")
+ ("c:/home/.emacs.d/" . "mylisp/")
+ ("c:/home/projects/kernel/linux-4.3.3/net/" . "wireless/")
+ ("c:/home/projects/kernel/linux-4.3.3/" . "net/")
+ ("c:/Users/smondal1/Dropbox/src/" . "FakeSCSIController/")
+ ("c:/home/projects/kernel/fs/" . "lustre-release/")
+ ("c:/home/projects/kernel/" . "win/")
+ ("c:/home/projects/" . "kernel/")
+ ("c:/home/" . ".emacs.d/")
+ ("c:/Users/smondal1/Dropbox/tools/" . "ref/")
+ ("c:/Users/smondal1/Dropbox/" . "src/")
+ ("c:/Users/smondal1/" . "Dropbox/")
+ ("c:/Users/" . "smondal1/")
+ ("c:/" . "Users/")
  ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/Examples/" . "FRA/")
  ("/Users/saptarshi/.emacs.d/colorthemes/" . "color-theme-6.6.0/")
  ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/" . "Examples/")
  ("/Users/saptarshi/projects/kernel/linux-4.1.2/arch/arm64/" . "kernel/")
  ("/Users/saptarshi/projects/kernel/linux-4.1.2/arch/" . "arm64/")
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/" . "drivers/")
- ("/Users/saptarshi/projects/app/pc/" . "openCog/")
- ("/Users/saptarshi/.emacs.d/" . "mylisp/")
+ ("/Users/saptarshi/projects/kernel/linux-4.1.2/" . "arch/")
+ ("/Users/saptarshi/projects/app/pc/" . "QuantLib-1.7/")
+ ("/Users/saptarshi/.emacs.d/" . "colorthemes/")
  ("/Users/saptarshi/projects/app/android/L-Detector-3/src/com/khudroudyog/" . "l_detector_3/")
  ("/Users/saptarshi/projects/app/android/L-Detector-3/src/com/" . "khudroudyog/")
  ("/Users/saptarshi/projects/app/android/L-Detector-3/src/" . "com/")
@@ -28,100 +46,163 @@
  ("/Users/saptarshi/" . ".emacs.d/")
  ("/Users/saptarshi/projects/kernel/linux-4.1.2/fs/" . "btrfs/")
  ("/Users/saptarshi/projects/kernel/" . "linux-4.1.2/")
- ("/Users/saptarshi/projects/" . "kernel/")
+ ("/Users/saptarshi/projects/" . "app/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/saptarshi/.emacs.d/mylisp/"
- "/Users/saptarshi/Dropbox/tools/ref/"
- "/Users/saptarshi/"
- "/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/net/ethernet/intel/e1000/"
- "/Users/saptarshi/.emacs.d/"
- "/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/net/plip/"
- "/Users/saptarshi/OneDrive/Documents/AI/"
- "/Users/saptarshi/Dropbox/Insurance for Mom/"
- "/Users/saptarshi/projects/app/pc/openCog/cogutils/opencog/util/"
- "/Users/saptarshi/projects/app/pc/QuantLib-1.7/Examples/Bonds/"
- "/Users/saptarshi/projects/app/pc/QuantLib-1.7/"
+ "c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/wwanamt/"
+ "c:/home/.emacs.d/mylisp/"
+ "c:/home/.emacs.d/"
+ "c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/0.45/tmp/"
+ "c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/0.45/tmp/tex/"
+ "c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/0.45/"
+ "c:/home/projects/kernel/win/Win_Driver/"
+ "c:/home/projects/app/android/L-Detector-3/src/com/khudroudyog/l_detector_3/"
+ "c:/home/tools/emacs-24.5/var/games/emacs/"
+ "c:/home/projects/app/pc/nodejs/"
+ "c:/Users/smondal1/Dropbox/tools/ref/"
+ "c:/home/projects/kernel/linux-4.3.3/net/wireless/"
+ "c:/home/projects/kernel/linux-4.3.3/drivers/net/plip/"
+ "c:/home/projects/kernel/linux-4.3.3/net/ethernet/"
+ "c:/Users/smondal1/Dropbox/src/FakeSCSIController/"
+ "c:/home/projects/kernel/fs/lustre-release/"
  "/Users/saptarshi/.emacs.d/colorthemes/color-theme-6.6.0/"
+ "/Users/saptarshi/.emacs.d/mylisp/"
  "/Users/saptarshi/projects/app/pc/QuantLib-1.7/Examples/FRA/"
+ "/Users/saptarshi/projects/app/pc/QuantLib-1.7/"
+ "/Users/saptarshi/projects/app/pc/QuantLib-1.7/Examples/Bonds/"
  "/Users/saptarshi/projects/app/pc/QuantLib-1.7/ql/"
+ "/Users/saptarshi/.emacs.d/"
+ "/Users/saptarshi/"
  "/Users/saptarshi/projects/kernel/linux-4.1.2/arch/arm64/kernel/"
  "/Users/saptarshi/projects/app/pc/fxfloorboard-fxfloorboard/"
  "/Users/saptarshi/projects/app/android/L-Detector-3/src/com/khudroudyog/l_detector_3/"
  "/Users/saptarshi/projects/kernel/linux-4.1.2/fs/btrfs/"
+ "/Users/saptarshi/Dropbox/tools/ref/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "ch3.tex"
  "emacs-sm-kbd.el"
- "MyEmacsCommandRef"
- "e1000_main.c"
- "e1000_hw.c"
  "init.el"
- "plip.c"
- "Introduction to Data Science.pdf"
- "AI-Learn-Path.org"
- "Patriot america visitor insurance, Patriot travel insurance plan.pdf"
- "files.cc"
+ ".ispell"
+ "ch4.tex"
+ "mystyle.sty"
+ "ch6.tex"
+ "ch1.tex"
+ "appendix-B.tex"
+ "appendix-A.tex"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/saptarshi/Dropbox/tools/ref/" (22150 48932 0 0) "tMux Reference.txt" "ROSCommands.org" "regular_expression_guide.txt" "R-Reference.org" "MyUnixCommandRef" "MyOSXReference.txt" "MyEmacsCommandRef" "Git_reference.txt" "CPLUSPLUSRef.org" "AI-Learn-Path.org" "#MyUnixCommandRef#" "#MyROSCommands.txt#" "../" "./")
+ ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/wwanamt/" (22515 63317 0 0) "title.tex" "tables.tex" "mystyle.sty" "main.tex" "main.synctex.gz" "main.pdf" "legal.tex" "img/" "ch9.tex" "ch8.tex" "ch7.tex" "ch6.tex" "ch5.tex" "ch4.tex" "ch3.tex" "ch2.tex" "ch10.tex" "ch1.tex" "appendix-B.tex" "appendix-A.tex" ".log" ".gitignore" ".git/" "../" "./")
 
- ("/Users/saptarshi/.emacs.d/" (22148 51736 0 0) "srecode-map.elc" "srecode-map.el" "mylisp/" "init.el" "ido.last" "el-get/" "colorthemes/" "auto-save-list/" ".DS_Store" "../" "./")
+ ("c:/home/.emacs.d/mylisp/" (22515 63081 0 0) "xcscope.el" "linum.el" "linum+.el" "hl-line+.el" "emacs-sm-theme.el~" "emacs-sm-theme.el" "emacs-sm-prog-misc.el~" "emacs-sm-prog-misc.el" "emacs-sm-kbd.el" "emacs-sm-javamode.el" "emacs-sm-ecb-setup.el" "emacs-sm-color-theme-saptarshi.el" "emacs-sm-ccmode.el" "emacs-sm-auto-insert.el" "../" "./")
 
- ("/Users/saptarshi/Dropbox/" (22148 22640 0 0) "tools/" "tmp.zip" "Theme/" "the-founders-dilemma.pdf" "src/" "Resume Template/" "Resume/" "R/" "Octave/" "NetBeansProjects/" "Music/" "Khudro-Udyog/" "Insurance for Mom/" "Icon
-" "git/" "doc/" "Coloring _ Daniel Tiger's Neighborhood _ PBS KIDS.pdf" "Camera Uploads/" "31st Program Karaoke Tracks - Pritam/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+ ("c:/home/.emacs.d/" (22515 63083 0 0) "srecode-map.el" "mylisp/" "init.el" "ido.last" "eshell/" "elpa/" "el-get/" "ede-projects.el" "colorthemes/" "auto-save-list/" ".ispell" "%backup%~" "../" "./")
 
- ("/Users/saptarshi/" (22149 64955 0 0) "tmp/" "Public/" "projects/" "Pictures/" "OneDrive/" "News/" "Music/" "Movies/" "Library/" "Google Drive/" "emacs-backups/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".vscode/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".semanticdb/" ".rstudio-desktop/" ".Rhistory" ".Rapp.history" ".profile" ".oracle_jre_usage/" ".octave_hist" ".newsrc-dribble" ".matlab/" ".ipython/" ".htoprc" ".gradle/" ".gnus" ".gitconfig" ".emacs.d/" ".DS_Store" ".dropbox/" ".continuum/" ".config/" ".CFUserTextEncoding" ".bash_sessions/" ".bash_profile" ".bash_history" ".authinfo" ".AndroidStudio1.4/" ".AndroidStudio1.2/" ".android/" "../" "./")
+ ("c:/home/" (22515 61711 0 0) "tools/" "R/" "projects/" "goto.txt" "git-repo/" "en.prepl" "emacs-backups/" ".Rhistory" ".gitconfig" ".emacs.d/" ".bash_history" "../" "./")
 
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/net/ethernet/intel/e1000/" (21919 63422 0 0) "Makefile" "e1000_param.c" "e1000_osdep.h" "e1000_main.c" "e1000_hw.h" "e1000_hw.c" "e1000_ethtool.c" "e1000.h" "../" "./")
+ ("c:/Users/smondal1/Dropbox/tools/ref/" (22501 26697 0 0) "tMux Reference.txt" "ROSCommands.org" "regular_expression_guide.txt" "R-Reference.org" "MyUnixCommandRef" "MyOSXReference.txt" "MyEmacsCommandRef (kul-desktop's conflicted copy 2016-06-12)" "MyEmacsCommandRef" "Git_reference.txt" "CPLUSPLUSRef.org" "AI-Learn-Path.org" ".ispell" "../" "./")
 
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/net/ethernet/intel/" (21919 63422 0 0) "Makefile" "Kconfig" "ixgbevf/" "ixgbe/" "ixgb/" "igbvf/" "igb/" "i40evf/" "i40e/" "fm10k/" "e1000e/" "e1000/" "e100.c" "../" "./")
+ ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/Vision/vPro+/story/vision/" (22501 50017 0 0) "title.tex" "story-outline.org" "mystyle.sty" "main.tex" "main.synctex.gz" "main.pdf" "img/" "ch6.tex" "ch5.tex" "ch4.tex" "ch3.tex" "ch2.tex" "ch1.tex" ".git/" "../" "./")
 
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/net/ethernet/" (21919 63422 0 0) "xscale/" "xircom/" "xilinx/" "wiznet/" "via/" "tundra/" "toshiba/" "tile/" "ti/" "tehuti/" "sun/" "stmicro/" "smsc/" "sis/" "silan/" "sgi/" "sfc/" "seeq/" "samsung/" "rocker/" "renesas/" "realtek/" "rdc/" "qualcomm/" "qlogic/" "pasemi/" "packetengines/" "oki-semi/" "octeon/" "nxp/" "nvidia/" "nuvoton/" "netx-eth.c" "neterion/" "natsemi/" "myricom/" "moxa/" "microchip/" "micrel/" "mellanox/" "marvell/" "Makefile" "lantiq_etop.c" "korina.c" "Kconfig" "jme.h" "jme.c" "intel/" "icplus/" "ibm/" "i825xx/" "hp/" "hisilicon/" "fujitsu/" "freescale/" "fealnx.c" "faraday/" "ethoc.c" "emulex/" "ec_bhf.c" "dnet.h" "dnet.c" "dlink/" "dec/" "davicom/" "cisco/" "cirrus/" "chelsio/" "calxeda/" "cadence/" "brocade/" "broadcom/" "atheros/" "arc/" "apple/" "apm/" "amd/" "altera/" "alteon/" "allwinner/" "agere/" "aeroflex/" "adi/" "adaptec/" "8390/" "3com/" "../" "./")
+ ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/0.45/" (22498 9028 0 0) "TreemontPRD.tex" "title.tex" "tables.tex" "reviewers.tex" "revhistory.tex" "mystyle.sty" "main.tex" "legal.tex" "intel_4c_100.ps" "IntelLogo.JPG" "ch6.tex" "ch5.tex" "ch4.tex" "ch3.tex" "ch2.tex" "ch1.tex" "author.tex" "../" "./")
 
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/net/plip/" (21919 63422 0 0) "plip.c" "Makefile" "Kconfig" "../" "./")
+ ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/0.45/tmp/" (22497 55316 0 0) "TreemontPRD.tex" "title.tex.backup" "title.tex" "tex-old/" "revhistory.tex" "revhistory.synctex.gz" "revhistory.pdf" "mystyle.sty" "main.tex" "main.synctex.gz" "main.pdf" "legal.tex" "intel_4c_100.ps" "intel_4c_100.pdf" "IntelLogo.JPG" "img-old/" "ch6.tex" "ch5.tex" "ch4.tex" "ch3.tex" "ch2.tex" "ch1.tex" "ch1.synctex.gz" "ch1.pdf" "../" "./")
 
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/net/" (21919 63422 0 0) "xen-netfront.c" "xen-netback/" "wireless/" "wimax/" "wan/" "vxlan.c" "vmxnet3/" "virtio_net.c" "veth.c" "usb/" "tun.c" "team/" "sungem_phy.c" "Space.c" "slip/" "sb1000.c" "rionet.c" "ppp/" "plip/" "phy/" "ntb_netdev.c" "nlmon.c" "netconsole.c" "mii.c" "mdio.c" "Makefile" "macvtap.c" "macvlan.c" "loopback.c" "LICENSE.SRC" "Kconfig" "irda/" "ipvlan/" "ifb.c" "ieee802154/" "hyperv/" "hippi/" "hamradio/" "fddi/" "ethernet/" "eql.c" "dummy.c" "dsa/" "cris/" "can/" "caif/" "bonding/" "arcnet/" "appletalk/" "../" "./")
+ ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/0.45/tmp/tex/" (22497 48106 0 0) "tmp.tex" "title.tex.backup" "title.tex" "title.synctex.gz" "title.pdf" "title.log" "title.aux" "legal.tex" "ch6.tex" "ch5.tex" "ch4.tex" "ch3.tex" "ch2.tex" "ch1.tex" "appendix.tex" ".#legal.tex" "#legal.tex#" "../" "./")
 
- ("/Users/saptarshi/projects/kernel/linux-4.1.2/drivers/" (21919 63422 0 0) "zorro/" "xen/" "watchdog/" "w1/" "vme/" "vlynq/" "virtio/" "virt/" "video/" "vhost/" "vfio/" "uwb/" "usb/" "uio/" "tty/" "thunderbolt/" "thermal/" "tc/" "target/" "staging/" "ssb/" "spmi/" "spi/" "soc/" "sn/" "sh/" "sfi/" "scsi/" "sbus/" "s390/" "rtc/" "rpmsg/" "reset/" "remoteproc/" "regulator/" "ras/" "rapidio/" "pwm/" "ptp/" "ps3/" "pps/" "powercap/" "power/" "pnp/" "platform/" "pinctrl/" "phy/" "pcmcia/" "pci/" "parport/" "parisc/" "oprofile/" "of/" "nubus/" "ntb/" "nfc/" "net/" "mtd/" "mmc/" "misc/" "mfd/" "message/" "memstick/" "memory/" "media/" "md/" "mcb/" "Makefile" "mailbox/" "macintosh/" "lguest/" "leds/" "Kconfig" "isdn/" "irqchip/" "ipack/" "iommu/" "input/" "infiniband/" "iio/" "idle/" "ide/" "i2c/" "hwtracing/" "hwspinlock/" "hwmon/" "hv/" "hsi/" "hid/" "gpu/" "gpio/" "fmc/" "firmware/" "firewire/" "extcon/" "eisa/" "edac/" "dma-buf/" "dma/" "dio/" "devfreq/" "dca/" "crypto/" "cpuidle/" "cpufreq/" "connector/" "clocksource/" "clk/" "char/" "cdrom/" "bus/" "bluetooth/" "block/" "bcma/" "base/" "auxdisplay/" "atm/" "ata/" "android/" "amba/" "acpi/" "accessibility/" "../" "./")
+ ("c:/Users/smondal1/Dropbox/src/FakeSCSIController/" (22423 292 0 0) "Makefile" "FakeSCSIControllermain.h" "FakeSCSIControllermain.c" "FakeSCSIControllermain (kul-desktop's conflicted copy 2016-06-12).c" ".FakeSCSIControllermain.c.swp" "#FakeSCSIControllermain.c#" "../" "./")
 
- ("/Users/saptarshi/OneDrive/Documents/AI/" (22135 21733 0 0) "Think Stat in Python.pdf" "The_Kinematics_of_Machinery.pdf" "THE QUEST FOR ARTIFICIAL INTELLIGENCE.pdf" "The Matrix Cookbook.pdf" "The Hidden Patterns - OpenCog .pdf" "The Art of R Programming.pdf" "Structured Learning and prediction in Computer vision.pdf" "Research Article/" "Reinforcement Learning- An Introduction.pdf" "R Programming for Data Scientists.pdf" "Pattern Recognition and Machine Learning.pdf" "Natural Image Statistics.pdf" "Introduction to Machine Learning.pdf" "Introduction to Machine Learning Paper.pdf" "Introduction to Data Science.pdf" "Intro to Probability and Statistics with R.pdf" "Information theory inference and learning.pdf" "Gaussian Processes for Machine Learning.pdf" "Essentials of Machine Learning Algorithms.pdf" "Elements of Statistical Learning.pdf" "DIY Deep Learning for Vision_  a Hands-On Tutorial with Caffe.pdf" "Deep Learning by Yoshua Bengio.pdf" "Data-Intensive Text Processing with MapReduce.pdf" "Convex Optimization.pdf" "Bayesian Reasoning and Machine Learning.pdf" "An Introduction to Statistical Learning with Application in R.pdf" "An Introduction to information retrieval.pdf" "A Unified Review of Linear Gaussian Model.pdf" "A Gentle Introduction to ROS.pdf" "A Brief Introduction to neural Network.pdf" ".DS_Store" "../" "./")
+ ("c:/home/tools/emacs-24.5/var/games/emacs/" (22422 44406 0 0) "tetris-scores" "snake-scores" "#tetris-scores#" "../" "./")
 
- ("/Users/saptarshi/OneDrive/Documents/" (22133 35560 0 0) "Pro Tech for Home Recording.pdf" "Personal (Web).url" "Other Books/" "OpenSSL Arch.pdf" "Engineering General Intelligence Part II.pdf" "Engineering General Intelligence Part I.pdf" "AI/" ".DS_Store" "../" "./")
+ ("c:/home/.emacs.d/colorthemes/" (22422 44149 0 0) "color-theme-6.6.0/" "../" "./")
 
- ("/Users/saptarshi/OneDrive/" (22134 35408 0 0) "share/" "Pictures/" "Music/" "movie/" "Loops/" "Icon
-" "Documents/" "Cars/" "2640423.JPG" ".DS_Store" "../" "./")
+ ("c:/home/projects/kernel/win/Win_Driver/" (22481 42332 0 0) "wT_rel_64_logs.bat" "wT_rel_64_ddd_wpp.bat" "wT_rel_64_ddd_logs.bat" "wT_rel_64.bat" "wT_rel_32_logs.bat" "wT_rel_32_ddd_logs.bat" "wT_rel_32.bat" "wT_dbg_ut.bat" "wT_dbg_64_ddd.bat" "wT_dbg_64.bat" "wT_dbg_32_ddd.bat" "wT_dbg_32.bat" "Win_Driver.reg.base" "WinWiFiFw.props" "WinWIFIDrv_properties.props" "WinWIFIDrv.VC.db" "WinWIFIDrv.sln" "WFD/" "wB_rel_64_logs.bat" "wB_rel_64_ddd_logs.bat" "wB_rel_64.bat" "wB_rel_32_logs.bat" "wB_rel_32_ddd_logs.bat" "wB_rel_32.bat" "wB_dbg_64_ddd.bat" "wB_dbg_64.bat" "wB_dbg_32_ddd.bat" "wB_dbg_32.bat" "w7_rel_64_sign.bat" "w7_rel_64_p2p_logs.bat" "w7_rel_64_logs.bat" "w7_rel_64_ddd_logs.bat" "w7_rel_64.bat" "w7_rel_32_p2p_logs.bat" "w7_rel_32_logs.bat" "w7_rel_32_ddd_logs.bat" "w7_rel_32.bat" "w7_dbg_64_sign.bat" "w7_dbg_64_ddd.bat" "w7_dbg_64.bat" "w7_dbg_32_ddd.bat" "w7_dbg_32.bat" "Utilities/" "UMac/" "testCompilation.bat" "system/" "StartVS.bat" "SE_WinDrv.vpw" "SE_WinDrv.vpj" "SE_WinDrv.cmd" "setwdkbasedir.bat" "setPCIeMSBuildParams.bat" "scmbuild.bat" "sbrList" "RxData/" "reduced_bld.bat" "PREfastByUser.pl" "preBuildSteps.pl" "preBuildSteps.bat" "Platform/" "OsController/" "Osa/" "obj_rel_winBx64.wrn" "obj_rel_winBx64.err" "MMAC/" "MlmeSubSys/" "Miniport/" "Makefile.wmi" "MAC/" "legacy_proxy/" "KW_build.bat" "ipch/" "IntelWiFiDriverProperties.props" "Inc/" "HMAC/" "generate_hsm.bat" "enum2names.mak" "dirs" "Dependency/" "Debug/" "ddkmsbuild.bat" "ddkbuild.bat" "DDD_build.bat" "Dcl/" "DataPath/" "cosai/" "core/" "Common/" "CleanUpP4.bat" "CleanUpMsbuild.bat" "CleanUpLegacy.bat" "CleanUp.bat" "checkOrdinals.bat" "ApplicationExtensions/" ".vs/" ".gitignore" ".git/" "../" "./")
 
- ("/Users/saptarshi/Dropbox/Insurance for Mom/" (21889 6015 0 0) "Patriot america visitor insurance, Patriot travel insurance plan.pdf" "82119759_IdCard.pdf" "../" "./")
+ ("c:/home/projects/kernel/win/" (22481 42258 0 0) "Win_Driver/" "Windows-driver-samples/" "scripts/" "../" "./")
 
- ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/ql/" (22130 21966 0 0) "volatilitymodel.hpp" "version.hpp" "utilities/" "userconfig.hpp" "types.hpp" "timeseries.hpp" "timegrid.o" "timegrid.lo" "timegrid.hpp" "timegrid.cpp" "time/" "termstructures/" "termstructure.o" "termstructure.lo" "termstructure.hpp" "termstructure.cpp" "stochasticprocess.o" "stochasticprocess.lo" "stochasticprocess.hpp" "stochasticprocess.cpp" "stamp-h1" "settings.o" "settings.lo" "settings.hpp" "settings.cpp" "rebatedexercise.o" "rebatedexercise.lo" "rebatedexercise.hpp" "rebatedexercise.cpp" "quotes/" "quote.hpp" "quantlib.hpp" "qldefines.hpp" "processes/" "pricingengines/" "pricingengine.hpp" "prices.o" "prices.lo" "prices.hpp" "prices.cpp" "position.o" "position.lo" "position.hpp" "position.cpp" "payoff.hpp" "patterns/" "option.hpp" "numericalmethod.hpp" "money.o" "money.lo" "money.hpp" "money.cpp" "models/" "methods/" "mathconstants.hpp" "math/" "Makefile.in" "Makefile.am" "Makefile" "libQuantLib.la" "legacy/" "interestrate.o" "interestrate.lo" "interestrate.hpp" "interestrate.cpp" "instruments/" "instrument.hpp" "indexes/" "index.o" "index.lo" "index.hpp" "index.cpp" "handle.hpp" "grid.hpp" "experimental/" "exercise.o" "exercise.lo" "exercise.hpp" "exercise.cpp" "exchangerate.o" "exchangerate.lo" "exchangerate.hpp" "exchangerate.cpp" "event.o" "event.lo" "event.hpp" "event.cpp" "errors.o" "errors.lo" "errors.hpp" "errors.cpp" "discretizedasset.o" "discretizedasset.lo" "discretizedasset.hpp" "discretizedasset.cpp" "default.hpp" "currency.o" "currency.lo" "currency.hpp" "currency.cpp" "currencies/" "config.sun.hpp" "config.msvc.hpp" "config.mingw.hpp" "config.hpp.in" "config.hpp" "config.ansi.hpp" "compounding.hpp" "cashflows/" "cashflow.o" "cashflow.lo" "cashflow.hpp" "cashflow.cpp" "auto_link.hpp" ".libs/" ".deps/" "../" "./")
+ ("c:/home/projects/kernel/" (22481 40684 0 0) "win/" "linux/" "../" "./")
 
- ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/Examples/FRA/" (22130 21971 0 0) "ReadMe.txt" "Makefile.in" "Makefile.am" "Makefile" "FRA_vc9.vcproj" "FRA_vc8.vcproj" "FRA.vcxproj.filters" "FRA.vcxproj" "FRA.o" "FRA.dev" "FRA.cpp" "FRA" "build/" "bin/" ".libs/" ".deps/" "#FRA.cpp#" "../" "./")
+ ("c:/home/projects/" (22452 57380 0 0) "kernel/" "app/" "../" "./")
 
- ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/" (22130 21975 0 0) "test-suite/" "Readme.txt" "QuantLib_vc9.vcproj" "QuantLib_vc9.sln" "QuantLib_vc8.vcproj" "QuantLib_vc8.sln" "QuantLib_vc14.sln" "QuantLib_vc12.sln" "QuantLib_vc11.sln" "QuantLib_vc10.sln" "QuantLib.vcxproj.filters" "QuantLib.vcxproj" "QuantLib.spec.in" "QuantLib.spec" "QuantLib.props" "quantlib.m4" "quantlib.elc" "quantlib.el" "QuantLib.dev" "quantlib-config.in" "quantlib-config" "ql/" "News.txt" "man/" "Makefile.in" "Makefile.am" "Makefile" "m4/" "LICENSE.TXT" "libtool" "Examples/" "Docs/" "cscope.out" "Contributors.txt" "configure.ac" "configure" "config.status" "config.log" "config/" "compiler-setup.sh" "ChangeLog.txt" "build/" "Bugs.txt" "autom4te.cache/" "autogen.sh" "Authors.txt" "Announce.txt" "aclocal.m4" "acinclude.m4" ".DS_Store" "../" "./")
+ ("c:/home/projects/app/android/L-Detector-3/src/com/khudroudyog/l_detector_3/" (22423 58723 0 0) "SMS_Browse_Activity.java" "SMSDataStore.java" "SMSDataRecord.java" "ProcessSMSReceiveBackGround.java" "ProcessMsgDS.java" "NLP_Ref_DB.java" "NLP_Ref_Datastructure.java" "NLP_AI_Engine.java" "MainActivity.java" "LDetectSearchList.java" "LDetectorStateMachineJob.java" "LDetectorStateMachine.java" "LDetectorSMSAnalyzeMainActivity.java" "LDetectorSMS.java" "LDetectorSettingsFragment.java" "LDetectorSettingsActivity.java" "LDetectorProcessMsg.java" "LDetectorOSHelper.java" "LDetectorMainView.java" "LDetectorDBHelper.java" "LDetectorDataSource.java" "LDetectorDataEngineAsynTask.java" "LDetectorDataEngine.java" "LDetectorData.java" "LDetectorCurrentProgress.java" "LDetectorAndroidHelper.java" "LDetectorAndroidCurrentProgress.java" "LDetectConstants.java" "HorizontalListView.java" "GotSMSNow.java" "GetInputInterface.java" "DeviceContactDB.java" "ChartElementAdapter.java" "AnalysisResultsEachCategory.java" "AnalysisResult.java" "../" "./")
 
- ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/Examples/Bonds/" (22130 21970 0 0) "ReadMe.txt" "Makefile.in" "Makefile.am" "Makefile" "build/" "Bonds_vc9.vcproj" "Bonds_vc8.vcproj" "Bonds.vcxproj.filters" "Bonds.vcxproj" "Bonds.o" "Bonds.dev" "Bonds.cpp" "Bonds" "bin/" ".libs/" ".deps/" "../" "./")
+ ("c:/home/projects/app/android/L-Detector-3/src/com/khudroudyog/" (22423 58722 0 0) "l_detector_3/" "../" "./")
 
- ("/Users/saptarshi/Dropbox/tools/" (22115 17932 0 0) "xcode/" "www.l-detector.com.conf" "word/" "VS2013/" "vi/" "sw-installupdate" "sw-install-ubuntuserver" "sw-install-ubuntu-webserver-drupal" "sw-install-linux-emacs" "sw-install-linux-client~" "sw-install-linux-client (KUL-HP's conflicted copy 2015-11-23)" "sw-install-linux-client" "SublimeText2/" "saptarshi-ec2-free.pem" "ROS/" "ref/" "nexus4/" "mysettings/" "install_monaco_font.sh" "install-oracle-jdk" "install-monaco-font.sh" "git-proxy-wrapper" "git/" "emacs/" "Eclipse/" "ec2-test2-key2.pem" "connect_ec2" "connect_azure_l_detector" "connect_azure_khudro_udyog" "connect_azure" "Chrome Bookmarks/" "androidtool.cfg" "Android_studio/" "Android/" ".DS_Store" "../" "./")
+ ("c:/home/projects/app/android/L-Detector-3/src/com/" (22423 58722 0 0) "khudroudyog/" "../" "./")
 
- ("/Users/saptarshi/projects/app/pc/openCog/cogutils/opencog/util/" (22134 60902 0 0) "tree.h" "tree.cc" "tbb.h" "strnlen.h" "strnlen.cc" "strndup.h" "strndup.cc" "StringTokenizer.h" "StringTokenizer.cc" "StringManipulator.h" "StringManipulator.cc" "selection.h" "recent_val.h" "ranking.h" "random.h" "RandGen.h" "pool.h" "platform.h" "platform.cc" "octime.h" "octime.cc" "oc_omp.h" "oc_omp.cc" "oc_assert.h" "oc_assert.cc" "numeric.h" "mt19937ar.h" "mt19937ar.cc" "misc.h" "misc.cc" "MannWhitneyU.h" "macros.h" "lru_cache.h" "Logger.h" "Logger.cc" "log_prog_name.h" "log_prog_name.cc" "lazy_selector.h" "lazy_selector.cc" "lazy_random_selector.h" "lazy_random_selector.cc" "lazy_normal_selector.h" "lazy_normal_selector.cc" "KLD.h" "jaccard_index.h" "iostreamContainer.h" "hashing.h" "getopt_long.c" "getopt.c" "functional.h" "files.h" "files.cc" "exceptions.h" "exceptions.cc" "dorepeat.h" "digraph.h" "COVER_TREE_README" "Cover_Tree.h" "Counter.h" "Config.h" "Config.cc" "concurrent_stack.h" "concurrent_queue.h" "comprehension.h" "cogutil.h" "CMakeLists.txt" "cluster.h" "cluster.c" "boost_ext/" "based_variant.h" "backtrace-symbols.h" "backtrace-symbols.c" "async_method_caller.h" "ansi.h" "ansi.cc" "algorithm.h" "../" "./")
+ ("c:/home/projects/app/android/L-Detector-3/src/" (22423 58722 0 0) "com/" "../" "./")
 
- ("/Users/saptarshi/projects/app/pc/openCog/cogutils/opencog/" (22134 60902 0 0) "util/" "CMakeLists.txt" "../" "./")
+ ("c:/home/projects/app/android/L-Detector-3/" (22423 58722 0 0) "src/" "res/" "project.properties" "proguard-project.txt" "libs/" "ic_launcher-web.png" "gradlew.bat" "gradlew" "gradle/" "build.gradle" "AndroidManifest.xml" ".settings/" ".project" ".gitignore" ".git/" ".classpath" "../" "./")
 
- ("/Users/saptarshi/projects/app/pc/openCog/cogutils/" (22134 61304 0 0) "tests/" "scripts/" "README.md" "opencog.spec" "opencog/" "LICENSE.Apache" "LICENSE.AGPL" "LICENSE" "lib/" "include/" "doc/" "CMakeLists.txt" "circle.yml" "build/" "AUTHORS" ".README.md.swp" ".gitignore" ".git/" "../" "./")
+ ("c:/home/projects/app/android/" (22423 58719 0 0) "L-Detector-3/" "../" "./")
 
- ("/Users/saptarshi/projects/app/pc/openCog/" (22134 60967 0 0) "opencog/" "cogutils/" "atomspace/" "../" "./")
+ ("c:/home/projects/app/" (22423 58639 0 0) "android/" "../" "./")
 
- ("/Users/saptarshi/projects/app/pc/" (22134 60863 0 0) "TestC++/" "test.c" "tensorflow/" "R/" "QuantLib-1.7/" "prp/" "openCog/" "libsvm/" "liblinear/" "fxfloorboard-svn/" "caffe/" ".metadata/" ".DS_Store" "#test.c#" "../" "./")
+ ("c:/home/tools/emacs-24.5/var/games/" (22422 21684 0 0) "emacs/" "../" "./")
+
+ ("c:/home/tools/emacs-24.5/var/" (22422 21684 0 0) "games/" "../" "./")
+
+ ("c:/home/tools/emacs-24.5/" (22422 21684 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("c:/home/tools/" (22422 22103 0 0) "emacs-24.5/" "../" "./")
+
+ ("c:/home/projects/app/pc/nodejs/" (22363 24753 0 0) "test3.js" "test2.js" "test1.js" "npm-debug.log" "main.js" "input.txt" "index.html" "#test3.js#" "../" "./")
+
+ ("c:/home/projects/app/pc/" (22363 15898 0 0) "SGX/" "RealSense/" "R/" "python/" "ParallelStudioXE/" "nodejs/" "ManipulateMp3/" "LyncConversationTracker-master/" "LyncConversation/" "drape-master.zip" "drape-master/" "Download.zip" "Download/" "CNTK-master.zip" "BlyncSDK_v3.0.1/" "alda-1.0.0-rc14.zip" "alda-1.0.0-rc14/" "../" "./")
+
+ ("c:/Users/smondal1/Dropbox/tools/" (22322 18537 0 0) "xcode/" "www.l-detector.com.conf" "word/" "VS2013/" "vi/" "sw-installupdate" "sw-install-ubuntuserver" "sw-install-ubuntu-webserver-drupal" "sw-install-linux-emacs" "sw-install-linux-client~" "sw-install-linux-client (KUL-HP's conflicted copy 2015-11-23)" "sw-install-linux-client" "SublimeText2/" "saptarshi-ec2-free.pem" "ROS/" "ref/" "nexus4/" "mysettings/" "install_monaco_font.sh" "install-oracle-jdk" "install-monaco-font.sh" "git-proxy-wrapper" "git/" "emacs/" "Eclipse/" "ec2-test2-key2.pem" "connect_ec2" "connect_azure_l_detector" "connect_azure_khudro_udyog" "connect_azure" "Chrome Bookmarks/" "Android_studio/" "androidtool.cfg" "Android/" "../" "./")
+
+ ("c:/Users/smondal1/Dropbox/" (22349 47229 0 0) "tools/" "tmp.zip" "Theme/" "the-founders-dilemma.pdf" "src/" "SDNStory.org" "Resume Template/" "Resume/" "R/" "Octave/" "NetBeansProjects/" "Music/" "Khudro-Udyog/" "Insurance for Mom/" "git/" "doc/" "desktop.ini" "Camera Uploads/" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("c:/home/projects/kernel/linux-4.3.3/net/wireless/" (22137 34313 0 0) "wext-spy.c" "wext-sme.c" "wext-proc.c" "wext-priv.c" "wext-core.c" "wext-compat.h" "wext-compat.c" "util.c" "trace.h" "trace.c" "sysfs.h" "sysfs.c" "sme.c" "scan.c" "regdb.h" "reg.h" "reg.c" "rdev-ops.h" "radiotap.c" "ocb.c" "nl80211.h" "nl80211.c" "mlme.c" "mesh.c" "Makefile" "lib80211_crypt_wep.c" "lib80211_crypt_tkip.c" "lib80211_crypt_ccmp.c" "lib80211.c" "Kconfig" "ibss.c" "genregdb.awk" "ethtool.c" "debugfs.h" "debugfs.c" "db.txt" "core.h" "core.c" "chan.c" "ap.c" ".gitignore" "../" "./")
+
+ ("c:/home/projects/kernel/linux-4.3.3/drivers/net/plip/" (22137 34054 0 0) "plip.c" "Makefile" "Kconfig" "../" "./")
+
+ ("c:/home/projects/kernel/linux-4.3.3/drivers/net/" (22137 34810 0 0) "xen-netfront.c" "xen-netback/" "wireless/" "wimax/" "wan/" "vxlan.c" "vrf.c" "vmxnet3/" "virtio_net.c" "veth.c" "usb/" "tun.c" "team/" "sungem_phy.c" "Space.c" "slip/" "sb1000.c" "rionet.c" "ppp/" "plip/" "phy/" "ntb_netdev.c" "nlmon.c" "netconsole.c" "mii.c" "mdio.c" "Makefile" "macvtap.c" "macvlan.c" "loopback.c" "LICENSE.SRC" "Kconfig" "irda/" "ipvlan/" "ifb.c" "ieee802154/" "hyperv/" "hippi/" "hamradio/" "geneve.c" "fjes/" "fddi/" "ethernet/" "eql.c" "dummy.c" "dsa/" "cris/" "can/" "caif/" "bonding/" "arcnet/" "appletalk/" "../" "./")
+
+ ("c:/home/projects/kernel/linux-4.3.3/net/ethernet/" (22137 34299 0 0) "Makefile" "eth.c" "../" "./")
+
+ ("c:/home/projects/kernel/linux-4.3.3/net/" (22137 34313 0 0) "xfrm/" "x25/" "wireless/" "wimax/" "vmw_vsock/" "unix/" "tipc/" "sysctl_net.c" "switchdev/" "sunrpc/" "socket.c" "sctp/" "sched/" "rxrpc/" "rose/" "rfkill/" "rds/" "phonet/" "packet/" "openvswitch/" "nfc/" "netrom/" "netlink/" "netlabel/" "netfilter/" "mpls/" "Makefile" "mac802154/" "mac80211/" "llc/" "lapb/" "l2tp/" "key/" "Kconfig" "iucv/" "irda/" "ipx/" "ipv6/" "ipv4/" "ieee802154/" "hsr/" "ethernet/" "dsa/" "dns_resolver/" "decnet/" "dccp/" "dcb/" "core/" "compat.c" "ceph/" "can/" "caif/" "bridge/" "bluetooth/" "batman-adv/" "ax25/" "atm/" "appletalk/" "9p/" "8021q/" "802/" "6lowpan/" "../" "./")
+
+ ("c:/home/projects/kernel/linux-4.3.3/" (22137 34358 0 0) "virt/" "usr/" "tools/" "sound/" "security/" "scripts/" "samples/" "REPORTING-BUGS" "README" "net/" "mm/" "Makefile" "MAINTAINERS" "lib/" "kernel/" "Kconfig" "Kbuild" "ipc/" "init/" "include/" "fs/" "firmware/" "drivers/" "Documentation/" "crypto/" "CREDITS" "COPYING" "certs/" "block/" "arch/" ".mailmap" ".gitignore" ".get_maintainer.ignore" "../" "./")
+
+ ("c:/Users/smondal1/Dropbox/src/" (21955 34828 0 0) "UIImprevementsProject/" "tutorials/" "prpprojects/" "New Text Document.txt" "LearnAChart/" "FakeSCSIController/" "AchartLearnAgain/" "achartengine-read-only/" "../" "./")
+
+ ("c:/Users/smondal1/" (22136 27914 0 0) "WAStorageEmulatorDb34_log.ldf" "WAStorageEmulatorDb34.mdf" "Videos/" "Tracing/" "Templates/" "Syncplicity/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Saptarshi/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Migrated PST Files/" "mcafee dlp quarantined files/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Intel/" "Google Drive/" "Favorites/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "AnacapaPrefs.cfg" ".gradle/" ".config/" ".cisco/" ".AndroidStudioBeta/" ".android/" "../" "./")
+
+ ("c:/home/projects/app/pc/R/" (22072 58146 0 0) "Titanic/" "test/" "library/" "data/" "../" "./")
+
+ ("c:/home/projects/app/pc/R/Titanic/" (22072 58929 0 0) "train.csv" "titanic.R" "test.csv" "gendermodel.csv" "genderclassmodel.csv" ".Rhistory" "../" "./")
+
+ ("c:/home/projects/kernel/fs/lustre-release/debian/" (22049 27361 0 0) "source/" "rules" "README.Debian" "lustre-utils.manpages" "lustre-utils.install" "lustre-utils.examples" "lustre-utils.docs" "lustre-tests.install" "lustre-source.docs" "lustre-source.dirs" "lustre-dev.install" "lustre-dev.dirs" "lustre-client-modules.install" "linux-patch-lustre.unpatch" "linux-patch-lustre.kpatches" "linux-patch-lustre.dirs" "linux-patch-lustre.apply" "copyright" "control.modules.in" "control.main" "control" "compat" "changelog" ".gitignore" "../" "./")
+
+ ("c:/home/projects/kernel/fs/lustre-release/" (22049 27362 0 0) "snmp/" "README" "Makefile.in" "lustre.spec.in" "lustre-iokit/" "lustre-dkms.spec.in" "lustre/" "lnet/" "libcfs/" "ldiskfs/" "Documentation/" "debian/" "COPYING" "contrib/" "configure.ac" "config/" "ChangeLog" "build/" "autoMakefile.am" "autogen.sh" ".gitignore" ".git/" "../" "./")
+
+ ("c:/home/projects/kernel/fs/" (22049 27242 0 0) "lustre-release/" "../" "./")
+
+ ("c:/Users/" (21523 34621 0 0) "sys_policymgr/" "smondal1/" "Public/" "desktop.ini" "Default User/" "Default/" "All Users/" "Administrator/" "../" "./")
 
  ("/Users/saptarshi/.emacs.d/mylisp/" (22130 18764 0 0) "xcscope.elc" "xcscope.el" "linum.elc" "linum.el" "linum+.elc" "linum+.el" "hl-line+.elc" "hl-line+.el" "emacs-sm-theme.el~" "emacs-sm-theme.elc" "emacs-sm-theme.el" "emacs-sm-prog-misc.el~" "emacs-sm-prog-misc.elc" "emacs-sm-prog-misc.el" "emacs-sm-kbd.elc" "emacs-sm-kbd.el" "emacs-sm-javamode.elc" "emacs-sm-javamode.el" "emacs-sm-ecb-setup.elc" "emacs-sm-ecb-setup.el" "emacs-sm-color-theme-saptarshi.elc" "emacs-sm-color-theme-saptarshi.el" "emacs-sm-ccmode.elc" "emacs-sm-ccmode.el" "emacs-sm-auto-insert.elc" "emacs-sm-auto-insert.el" "../" "./")
 
+ ("/Users/saptarshi/.emacs.d/" (22130 18701 0 0) "srecode-map.elc" "srecode-map.el" "mylisp/" "init.el" "ido.last" "el-get/" "colorthemes/" "auto-save-list/" ".DS_Store" "../" "./")
+
+ ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/Examples/FRA/" (22130 18477 0 0) "ReadMe.txt" "Makefile.in" "Makefile.am" "Makefile" "FRA_vc9.vcproj" "FRA_vc8.vcproj" "FRA.vcxproj.filters" "FRA.vcxproj" "FRA.o" "FRA.dev" "FRA.cpp" "FRA" "build/" "bin/" ".libs/" ".deps/" "#FRA.cpp#" "../" "./")
+
+ ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/" (22130 17500 0 0) "test-suite/" "Readme.txt" "QuantLib_vc9.vcproj" "QuantLib_vc9.sln" "QuantLib_vc8.vcproj" "QuantLib_vc8.sln" "QuantLib_vc14.sln" "QuantLib_vc12.sln" "QuantLib_vc11.sln" "QuantLib_vc10.sln" "QuantLib.vcxproj.filters" "QuantLib.vcxproj" "QuantLib.spec.in" "QuantLib.spec" "QuantLib.props" "quantlib.m4" "quantlib.elc" "quantlib.el" "QuantLib.dev" "quantlib-config.in" "quantlib-config" "ql/" "News.txt" "man/" "Makefile.in" "Makefile.am" "Makefile" "m4/" "LICENSE.TXT" "libtool" "Examples/" "Docs/" "cscope.out" "Contributors.txt" "configure.ac" "configure" "config.status" "config.log" "config/" "compiler-setup.sh" "ChangeLog.txt" "build/" "Bugs.txt" "autogen.sh" "Authors.txt" "Announce.txt" "aclocal.m4" "acinclude.m4" ".DS_Store" "../" "./")
+
+ ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/Examples/Bonds/" (22130 16633 0 0) "ReadMe.txt" "Makefile.in" "Makefile.am" "Makefile" "build/" "Bonds_vc9.vcproj" "Bonds_vc8.vcproj" "Bonds.vcxproj.filters" "Bonds.vcxproj" "Bonds.o" "Bonds.dev" "Bonds.cpp" "Bonds" "bin/" ".libs/" ".deps/" "../" "./")
+
  ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/Examples/" (22129 3575 0 0) "Swap/" "Repo/" "Replication/" "README.txt" "MultidimIntegral/" "MarketModels/" "Makefile.in" "Makefile.am" "Makefile" "LatentModel/" "Gaussian1dModels/" "FRA/" "FittedBondCurve/" "EquityOption/" "DiscreteHedging/" "ConvertibleBonds/" "CDS/" "CallableBonds/" "Bonds/" "BermudanSwaption/" "BasketLosses/" "../" "./")
+
+ ("/Users/saptarshi/projects/app/pc/QuantLib-1.7/ql/" (22130 16631 0 0) "volatilitymodel.hpp" "version.hpp" "utilities/" "userconfig.hpp" "types.hpp" "timeseries.hpp" "timegrid.o" "timegrid.lo" "timegrid.hpp" "timegrid.cpp" "time/" "termstructures/" "termstructure.o" "termstructure.lo" "termstructure.hpp" "termstructure.cpp" "stochasticprocess.o" "stochasticprocess.lo" "stochasticprocess.hpp" "stochasticprocess.cpp" "stamp-h1" "settings.o" "settings.lo" "settings.hpp" "settings.cpp" "rebatedexercise.o" "rebatedexercise.lo" "rebatedexercise.hpp" "rebatedexercise.cpp" "quotes/" "quote.hpp" "quantlib.hpp" "qldefines.hpp" "processes/" "pricingengines/" "pricingengine.hpp" "prices.o" "prices.lo" "prices.hpp" "prices.cpp" "position.o" "position.lo" "position.hpp" "position.cpp" "payoff.hpp" "patterns/" "option.hpp" "numericalmethod.hpp" "money.o" "money.lo" "money.hpp" "money.cpp" "models/" "methods/" "mathconstants.hpp" "math/" "Makefile.in" "Makefile.am" "Makefile" "libQuantLib.la" "legacy/" "interestrate.o" "interestrate.lo" "interestrate.hpp" "interestrate.cpp" "instruments/" "instrument.hpp" "indexes/" "index.o" "index.lo" "index.hpp" "index.cpp" "handle.hpp" "grid.hpp" "experimental/" "exercise.o" "exercise.lo" "exercise.hpp" "exercise.cpp" "exchangerate.o" "exchangerate.lo" "exchangerate.hpp" "exchangerate.cpp" "event.o" "event.lo" "event.hpp" "event.cpp" "errors.o" "errors.lo" "errors.hpp" "errors.cpp" "discretizedasset.o" "discretizedasset.lo" "discretizedasset.hpp" "discretizedasset.cpp" "default.hpp" "currency.o" "currency.lo" "currency.hpp" "currency.cpp" "currencies/" "config.sun.hpp" "config.msvc.hpp" "config.mingw.hpp" "config.hpp.in" "config.hpp" "config.ansi.hpp" "compounding.hpp" "cashflows/" "cashflow.o" "cashflow.lo" "cashflow.hpp" "cashflow.cpp" "auto_link.hpp" ".libs/" ".deps/" "../" "./")
+
+ ("/Users/saptarshi/" (22129 1908 0 0) "tmp/" "Public/" "projects/" "Pictures/" "OneDrive/" "News/" "Music/" "Movies/" "Library/" "Google Drive/" "emacs-backups/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".vscode/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".semanticdb/" ".rstudio-desktop/" ".Rhistory" ".Rapp.history" ".profile" ".oracle_jre_usage/" ".octave_hist" ".newsrc-dribble" ".matlab/" ".ipython/" ".gradle/" ".gnus" ".gitconfig" ".emacs.d/" ".DS_Store" ".dropbox/" ".continuum/" ".config/" ".CFUserTextEncoding" ".bash_sessions/" ".bash_profile" ".bash_history" ".authinfo" ".AndroidStudio1.4/" ".AndroidStudio1.2/" ".android/" "../" "./")
 
  ("/Users/saptarshi/.emacs.d/colorthemes/color-theme-6.6.0/" (22110 25254 0 0) "themes/" "README" "Makefile.defs" "Makefile" "HACKING" "COPYING" "configure-stamp" "color-theme.elc" "color-theme.el" "color-theme-autoloads.in" "color-theme-autoloads.elc" "color-theme-autoloads.el" "ChangeLog" "build-stamp" "BUGS" "AUTHORS" "../" "./")
 
@@ -130,6 +211,10 @@
  ("/Users/saptarshi/.emacs.d/auto-save-list/" (22128 65136 0 0) "../" "./")
 
  ("/Users/saptarshi/.emacs.d/colorthemes/" (22109 14423 0 0) "color-theme-6.6.0/" "../" "./")
+
+ ("/Users/saptarshi/Dropbox/tools/ref/" (22109 17114 0 0) "tMux Reference.txt" "ROSCommands.org" "regular_expression_guide.txt" "R-Reference.org" "MyUnixCommandRef" "MyOSXReference.txt" "MyEmacsCommandRef" "Git_reference.txt" "CPLUSPLUSRef.org" "#MyUnixCommandRef#" "#MyROSCommands.txt#" "../" "./")
+
+ ("/Users/saptarshi/projects/app/pc/" (22128 64228 0 0) "TestC++/" "test.c" "tensorflow/" "R/" "QuantLib-1.7/" "prp/" "libsvm/" "liblinear/" "fxfloorboard-svn/" "caffe/" ".metadata/" ".DS_Store" "#test.c#" "../" "./")
 
  ("/Users/saptarshi/projects/kernel/linux-4.1.2/arch/arm64/kernel/" (21919 63422 0 0) "vmlinux.lds.S" "vdso.c" "vdso/" "traps.c" "trace-events-emulation.h" "topology.c" "time.c" "sys_compat.c" "sys32.c" "sys.c" "suspend.c" "stacktrace.c" "smp_spin_table.c" "smp.c" "sleep.S" "signal32.c" "signal.c" "setup.c" "return_address.c" "ptrace.c" "psci.c" "psci-call.S" "process.c" "perf_regs.c" "perf_event.c" "pci.c" "module.c" "Makefile" "kuser32.S" "kgdb.c" "jump_label.c" "irq.c" "io.c" "insn.c" "image.h" "hyp-stub.S" "hw_breakpoint.c" "head.S" "ftrace.c" "fpsimd.c" "entry32.S" "entry.S" "entry-ftrace.S" "entry-fpsimd.S" "efi.c" "efi-stub.c" "efi-entry.S" "debug-monitors.c" "cpuinfo.c" "cpuidle.c" "cpufeature.c" "cpu_ops.c" "cpu_errata.c" "cacheinfo.c" "asm-offsets.c" "armv8_deprecated.c" "arm64ksyms.c" "alternative.c" "acpi.c" ".gitignore" "../" "./")
 
@@ -152,6 +237,11 @@
  ("/Users/saptarshi/projects/app/android/" (22076 14741 0 0) "L-Detector-3/" ".DS_Store" "../" "./")
 
  ("/Users/saptarshi/projects/app/" (21926 41526 0 0) "pc/" "ios/" "android/" ".DS_Store" "../" "./")
+
+ ("/Users/saptarshi/Dropbox/tools/" (22099 52003 0 0) "xcode/" "www.l-detector.com.conf" "word/" "VS2013/" "vi/" "sw-installupdate" "sw-install-ubuntuserver" "sw-install-ubuntu-webserver-drupal" "sw-install-linux-emacs" "sw-install-linux-client~" "sw-install-linux-client (KUL-HP's conflicted copy 2015-11-23)" "sw-install-linux-client" "SublimeText2/" "saptarshi-ec2-free.pem" "ROS/" "ref/" "nexus4/" "mysettings/" "install_monaco_font.sh" "install-oracle-jdk" "install-monaco-font.sh" "git-proxy-wrapper" "git/" "emacs/" "Eclipse/" "ec2-test2-key2.pem" "connect_ec2" "connect_azure_l_detector" "connect_azure_khudro_udyog" "connect_azure" "Chrome Bookmarks/" "androidtool.cfg" "Android_studio/" "Android/" ".DS_Store" "../" "./")
+
+ ("/Users/saptarshi/Dropbox/" (22096 1606 0 0) "tools/" "Theme/" "the-founders-dilemma.pdf" "src/" "Resume Template/" "Resume/" "R/" "Octave/" "NetBeansProjects/" "Music/" "Khudro-Udyog/" "Insurance for Mom/" "Icon
+" "git/" "doc/" "Coloring _ Daniel Tiger's Neighborhood _ PBS KIDS.pdf" "Camera Uploads/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
  ("/Users/saptarshi/projects/kernel/linux-4.1.2/fs/btrfs/" (22109 13657 0 0) "zlib.c" "xattr.h" "xattr.c" "volumes.h" "volumes.c" "uuid-tree.c" "ulist.h" "ulist.c" "tree-log.h" "tree-log.c" "tree-defrag.c" "transaction.h" "transaction.c" "tests/" "sysfs.h" "sysfs.c" "super.c" "struct-funcs.c" "send.h" "send.c" "scrub.c" "root-tree.c" "relocation.c" "reada.c" "rcu-string.h" "raid56.h" "raid56.c" "qgroup.h" "qgroup.c" "props.h" "props.c" "print-tree.h" "print-tree.c" "orphan.c" "ordered-data.h" "ordered-data.c" "math.h" "Makefile" "lzo.c" "locking.h" "locking.c" "Kconfig" "ioctl.c" "inode.c" "inode-map.h" "inode-map.c" "inode-item.c" "hash.h" "hash.c" "free-space-cache.h" "free-space-cache.c" "file.c" "file-item.c" "extent_map.h" "extent_map.c" "extent_io.h" "extent_io.c" "extent-tree.c" "export.h" "export.c" "disk-io.h" "disk-io.c" "dir-item.c" "dev-replace.h" "dev-replace.c" "delayed-ref.h" "delayed-ref.c" "delayed-inode.h" "delayed-inode.c" "ctree.h" "ctree.c" "compression.h" "compression.c" "check-integrity.h" "check-integrity.c" "btrfs_inode.h" "backref.h" "backref.c" "async-thread.h" "async-thread.c" "acl.c" "#btrfs_inode.h#" "#acl.c#" "../" "./")
 

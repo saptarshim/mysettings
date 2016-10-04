@@ -1,0 +1,161 @@
+\documentclass[main.tex]{subfiles}
+\begin{document}
+\chapter{Solution Architecture}
+\section{Architecture Overview}
+This section documents the details of the WWAN AMT solution. The following diagram depicts the high level end to end solution architecture.
+
+\begin{figure}[H]
+  \caption{End to End Architecture Detail Diagram}
+  \centering
+    \noindent\makebox[\textwidth]{\includegraphics[width=\linewidth]{e2e_arch_detail}}
+\end{figure}
+
+There are four major components of this solution architecture.
+\subsection{IT Management Console}
+This is the standard IT management console for AMT with additional capability to query the current IP address through a secure API associated with the uniquely identified modem ID (e.g. Phone Number, IMEI, IMSI etc.). The API needs to be hosted by the service provider and the IT department needs to establish the proper credential to use the service securely with the service provider. IT console can integrate this API service as part of the management console or they can have standalone apps to do the same.
+
+\subsection{Service Provider Management API/Web Service}
+This component is hosted by the Service Providers. This is a secure lookup service of the currently assigned IP address associated with the uniquely identified modem ID (e.g. Phone Number, IMEI, IMSI etc.). The interface for this needs to be provided at least two different form.
+\begin{itemize}
+\item Secure REST API based service: This is a secure REST based API that can be integrated as part of the admin console along with the related PKI information to securely collect the IP address associated with the modem  
+\item Web based service: IT admin can log into this secure website and see the IP address associated with the previously registered modem
+\end{itemize}
+
+\subsection{Public Wireless/Wire Data networking Infrastructure}
+This is the standard public Internet infrastructure. No special requirements are imposed on this but expected to be neutral and capable of delivering sufficient bandwidth and latency characteristics required for the AMT use cases. The details of such requirements will be documented in the future version of this spec as better understanding of the cellular wireless infrastructure around the world are gathered and related TR work to benchmark the various AMT use cases are completed.
+
+\subsection{TGL vPro Client}
+This is the main module of the manageability capability of the TGL vPro platform. There are three major sub components that together deliver the overall manageability services and satisfy the different use cases at different system states. There are two major mode in which the manageability commands will flow through the system, In-Band and OOB and these channel are not mutually exclusive and can operate simultaneously. The following section will explore each component in further detail.
+
+
+\begin{figure}[H]
+  \caption{TGL vPro In-Band/OOB Manageability Architecture}
+  \centering
+    \noindent\makebox[\textwidth]{\includegraphics[width=\linewidth]{vpro_band_mngmt_arch}}
+\end{figure}
+
+\subsubsection{Host OS M.2 Modem Driver }
+This is the standard OS driver for the supported OS (e.g. Win10). Additional capability that this driver needs to incorporate are as follows.
+\begin{itemize}
+\item the OS is operational all incoming Data communication traffic will go to the host OS driver by default. As such the driver needs to implement a filtering mechanism to parse the incoming traffic and detect the AMT commands
+\item Once an incoming AMT message is detected by the driver, it needs to send this over the HECI interface (Can be shared with the WiFi controller) to the CSME
+\item When the CSME will respond back to AMT commands, it will follow the reverse path traversing the HECI interface back to the host driver and sent back to the management console through the host modem interface
+\item In order to implement this capability in Windows 10, it’s recommended to utilize an upper filter driver on top of the UDE Modem Driver. The following picture depicts the high level architecture of the proposed solution
+
+\begin{figure}[H]
+  \caption{Modem Driver Arch for Capture and forward AMT commands}
+  \centering
+    \noindent\makebox[\textwidth]{\includegraphics[width=\linewidth]{modem_drv_arch}}
+\end{figure}
+  
+\subsubsection	{M.2 Modem XMM 7560/8060}
+The XMM 7560/8060 modem use the existing PCIe, USB and I2C Interface to communicate with the CSME. In order the achieve routing the AMT commands across the above mentioned interfaces the following firmware components needs to be incorporated depending on the In-Band vs. the OOB mode of communication.
+\begin{itemize}
+\item In both of this case Modem firmware detect the AMT commands packet as part of the incoming data stream
+\item In-Band Communication
+  \begin{itemize}
+  \item In this mode no specific changes in the modem is required. The incoming AMT commands over a TCP/IP channel will flow exactly the same way as any other data communication and ultimately end up in host memory and will be vetted by the host driver for the appropriate action to reroute the detected AMT commands over the HECI interface
+  \end{itemize}
+\item OOB Communication
+  \begin{itemize}
+\item Modem firmware determine when the In band path is not available or the policy either pre-programed or the received AMT command dictate OOB communication 
+\item Once determined modem will use the I2C transport driver to send across the incoming AMT data to CSME 
+\item When the CSME will return data back through the I2C interface, the modem firmware need to package that in an appropriate TCP/IP frame and send it across the cellular network
+\end{itemize}
+\end{itemize}
+
+\subsubsection {CSME}
+CSME architecture for the most part will remain unchanged and broadly follow the WiFi In-Band and OOB path. The following describe each case
+\begin{itemize}
+\item In-Band Communication
+\begin{itemize}
+\item This is the standard HECI path the CSME firmware already utilize in the existing architecture, no specific changes are required
+  \end{itemize}
+\item OOB Communication
+  \begin{itemize}
+\item In this case CSME will provide the required firmware components to interface with the I2C interface
+\item Once detected the presence of incoming data through the I2C interface the CSME firmware will extract the AMT commands and follow through the standard flow to execute after the required security credential are verified
+\item When CSME needs to send the data back to the Admin console, it will package the response follow the reverse path of traversing across the I2C interface
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
+ 
+\subsubsection {AMT Message routing from Modem to CSME}
+There are two fundamental flow for AMT message routing to and from CSME in a WWAN connected vPro system. Let’s explore them in details and then map them into the various system states where each flow can be utilized.
+
+
+\begin{figure}[H]
+  \caption{OOB AMT Message Routing}
+  \centering
+    \noindent\makebox[\textwidth]{\includegraphics[width=\linewidth]{oob_amt_msg_route}}
+\end{figure}
+
+\begin{figure}[H]
+  \caption{In-Band AMT Message Routing}
+  \centering
+    \noindent\makebox[\textwidth]{\includegraphics[width=\linewidth]{ib_amt_msg_route}}
+\end{figure}
+
+
+\subsubsection {System State mapping to Message routing mechanism}
+CSME for the AMT commands received by the M.2 Modem in a WWAN connected vPro system depends on the system state. Let’s consider the system states under which these communication shall happen.
+
+\begin{itemize}
+\item System is in S0/S0ix
+  \begin{itemize}
+    \item In this state the communication will flow through the In-Band path unless the policy specifically set otherwise or per command AMT attribute request this to be routed OOB  
+  \end{itemize}  
+
+\item System in S0 OS crash
+  \begin{itemize}
+    \item In this state the only available path is to follow the OOB flow 
+  \end{itemize}  
+
+  \item System is in S4/S5
+  \begin{itemize}
+  \item	In this case the modem need to wake up CSME
+  \item Once CSME is up and running follow the OOB flow
+  \end{itemize}  
+\end{itemize}
+  
+
+\section{Platform Hardware Integration}
+The figure below summarizes the WWAN M.2 XMM7560 module HW integration into the Tiger Lake platform.
+
+\begin{figure}[H]
+  \caption{WWAN M.2 Integration for TGL}
+  \centering
+    \noindent\makebox[\textwidth]{\includegraphics[width=\linewidth]{m2_tgl}}
+\end{figure}
+
+\section{CSME / Modem wiring}
+  \begin{center}
+    %\begin{longtable}{ |p{2cm} | p{2cm} | p{2cm} | p{6cm} |}
+    \begin{longtable}{ |c | c | c | c|}
+    
+    \caption{ } \\
+    \hline
+    \multicolumn{1}{c|}{\textbf{M.2 I\textsuperscript{2}C Signal}} &
+    \multicolumn{1}{c|}{\textbf{CSME}} &
+    \multicolumn{1}{c|}{\textbf{Modem}} &
+    \multicolumn{1}{c|}{\textbf{Rationale}}
+    
+    \\ \hline \hline
+    \endfirsthead
+\hline
+    \multicolumn{1}{c|}{\textbf{M.2 I\textsuperscript{2}C Signal}} &
+    \multicolumn{1}{c|}{\textbf{CSME}} &
+    \multicolumn{1}{c|}{\textbf{Modem}} &
+    \multicolumn{1}{c|}{\textbf{Rationale}}
+     
+    \\ \hline \hline
+\endhead
+ Data & Master  & Slave & Send and Receive OOB Messages\\ \hline
+ Clock & Master  & Slave & Send and Receive OOB Messages\\ \hline
+ Clock & Master  & Slave & Send and Receive OOB Messages\\ \hline
+\end{longtable}
+\end{center}
+
+
+\end{document}
